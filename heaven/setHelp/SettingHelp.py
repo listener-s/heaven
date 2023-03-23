@@ -1,0 +1,17 @@
+class HeavenHelp:
+    # MYSQL
+    DATABASES_NAME = "heaven"
+    DATABASES_USER = "heaven"
+    DATABASES_PASSWORD = "123456"
+    DATABASES_HOST = "124.222.86.7"
+
+    # REDIS
+    REDIS_HOST = "124.222.86.7"
+    REDIS_PASSWORD = "123456"
+
+    # MONGODB
+    MONGODB_NAME = "heaven01"
+    MONGODB_USER = "heaven01"
+    MONGODB_PASSWORD = "123456"
+    MONGODB_HOST = "124.222.86.7"
+    MONGODB_PORT = 27017
