@@ -32,7 +32,7 @@ def big_small_insert_sort(arr) -> list:
     return arr
 
 
-def selectiom_sort(arr) -> list:
+def select_sort(arr) -> list:
     """
     选择排序
     :param arr:
