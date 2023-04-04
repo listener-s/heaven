@@ -1,5 +1,6 @@
-from common.files_ import FilesCommon
 from django.core.management.base import BaseCommand
+
+from common.files_ import FilesCommon
 
 
 class Command(BaseCommand):
@@ -19,6 +20,6 @@ class Command(BaseCommand):
         dirs = FilesCommon.path_list_files(folder_path=folder_path)
         save_status = FilesCommon.open_files_save_mongodb(dirs, folder_name)
         if save_status is True:
-            print("OK!")
+            print("OK !")
         else:
             print("Error !")
